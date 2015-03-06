@@ -24,11 +24,11 @@
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSURL *baseURL = [NSURL fileURLWithPath:path];
     
-    NSURL * url = [NSURL URLWithString:@"http://f.cl.ly/items/1l2i0x1C0F3l2I15092k/Bitmap%202.png"];
+    NSURL * url = [NSURL URLWithString:@"http://hax.sg/static/x.html"];
     
-//    [_WebView loadRequest:[NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:4] ];
+    [_WebView loadRequest:[NSURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:4] ];
     
-    [_WebView loadHTMLString:@"<img src='Jnnrm.png'>" baseURL:url];
+//    [_WebView loadHTMLString:@"<img src='Jnnrm.png'>" baseURL:url];
 
 }
 
