@@ -14,6 +14,8 @@
 		2D630EC01AA815B4009A601E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D630EBF1AA815B4009A601E /* Images.xcassets */; };
 		2D630EC31AA815B4009A601E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D630EC11AA815B4009A601E /* LaunchScreen.xib */; };
 		2D630ECF1AA815B5009A601E /* DBSHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D630ECE1AA815B5009A601E /* DBSHackTests.m */; };
+		2DDD93B71AA9444C0026E3DD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD93B61AA9444C0026E3DD /* WebViewController.m */; };
+		2DDD93B91AA94B9E0026E3DD /* Jnnrm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DDD93B81AA94B9E0026E3DD /* Jnnrm.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		2D630EC81AA815B4009A601E /* DBSHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBSHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D630ECD1AA815B4009A601E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D630ECE1AA815B5009A601E /* DBSHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBSHackTests.m; sourceTree = "<group>"; };
+		2DDD93B51AA9444C0026E3DD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		2DDD93B61AA9444C0026E3DD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		2DDD93B81AA94B9E0026E3DD /* Jnnrm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jnnrm.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +90,10 @@
 				2D630EB71AA815B4009A601E /* AppDelegate.m */,
 				2D630EB91AA815B4009A601E /* ViewController.h */,
 				2D630EBA1AA815B4009A601E /* ViewController.m */,
+				2DDD93B81AA94B9E0026E3DD /* Jnnrm.jpg */,
 				2D630EBC1AA815B4009A601E /* Main.storyboard */,
+				2DDD93B51AA9444C0026E3DD /* WebViewController.h */,
+				2DDD93B61AA9444C0026E3DD /* WebViewController.m */,
 				2D630EBF1AA815B4009A601E /* Images.xcassets */,
 				2D630EC11AA815B4009A601E /* LaunchScreen.xib */,
 				2D630EB21AA815B4009A601E /* Supporting Files */,
@@ -202,6 +210,7 @@
 				2D630EBE1AA815B4009A601E /* Main.storyboard in Resources */,
 				2D630EC31AA815B4009A601E /* LaunchScreen.xib in Resources */,
 				2D630EC01AA815B4009A601E /* Images.xcassets in Resources */,
+				2DDD93B91AA94B9E0026E3DD /* Jnnrm.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				2D630EBB1AA815B4009A601E /* ViewController.m in Sources */,
 				2D630EB81AA815B4009A601E /* AppDelegate.m in Sources */,
 				2D630EB51AA815B4009A601E /* main.m in Sources */,
+				2DDD93B71AA9444C0026E3DD /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +422,7 @@
 				2D630ED41AA815B5009A601E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D630ED51AA815B5009A601E /* Build configuration list for PBXNativeTarget "DBSHackTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				2D630ED71AA815B5009A601E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
