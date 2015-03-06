@@ -19,7 +19,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="WL4-PH-Ozk" kind="push" id="uVJ-Ys-lMM"/>
+                                    <segue destination="WL4-PH-Ozk" kind="modal" id="uVJ-Ys-lMM"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JuJuScrn1" id="haK-nS-Ptb">
@@ -41,16 +41,37 @@
                     <view key="view" contentMode="scaleToFill" id="WW0-zz-pkj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home" id="67o-U1-Kjg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="eRt-MH-h1H"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PVw-QO-h2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1411" y="8"/>
+            <point key="canvasLocation" x="1509" y="-24"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rdZ-kN-h0x">
+            <objects>
+                <viewController id="6xg-Ct-t4P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xAg-gE-hKv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YBp-iC-ekz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1889" y="-26"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Home" width="1278" height="2126"/>
         <image name="JuJuScrn1" width="1280" height="2272"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
